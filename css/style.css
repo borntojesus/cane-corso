@@ -1,0 +1,84 @@
+/* YOUR CUSTOM STYLES */
+
+
+        html,
+        body
+        .view {
+            height: 100%;
+        }
+        /* Navigation*/
+        
+        .navbar {
+            background-color: #2E2E2E;
+        }
+        
+        .top-nav-collapse {
+            background-color: #2E2E2E;
+        }
+        .header-topx{
+            height: 100px;
+            width: 100%;
+        }
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #2E2E2E;
+            }
+        }
+        /*Intro*/
+        
+        .view {
+            background: url("../img/top-img.jpg")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        @media (max-width: 768px) {
+            .full-bg-img,
+            .view {
+                height: auto;
+                position: relative;
+            }
+        }
+        
+        .description {
+            padding-top: 25%;
+            padding-bottom: 3rem;
+            color: #fff
+        }
+        
+        @media (max-width: 992px) {
+            .description {
+                padding-top: 7rem;
+                text-align: center;
+            }
+            #app-mockup {
+                max-height: 400px;
+            }
+        }
+        /*Footer*/
+        
+        .page-footer {
+            background-color: 
+        }
+
+
+.paddd{
+    text-align: left!important;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+.video {
+    width: 100%;
+    min-height: 480px;
+}
+.video iframe{
+    width: 100%;
+}
+.phw{
+
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+} 
